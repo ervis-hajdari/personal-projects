@@ -1,4 +1,4 @@
-import Document, { Head, Html, Main, NextScript } from "next/document";
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
   render() {
@@ -10,7 +10,7 @@ class MyDocument extends Document {
             sizes="180x180"
             href="/static/favicon/apple-touch-icon.png"
           />
-          <link
+          {/* <link
             rel="icon"
             type="image/png"
             sizes="32x32"
@@ -21,7 +21,7 @@ class MyDocument extends Document {
             type="image/png"
             sizes="16x16"
             href="/static/favicon/favicon-16x16.png"
-          />
+          /> */}
           <link rel="manifest" href="/static/favicon/site.webmanifest" />
         </Head>
         <body>

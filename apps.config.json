@@ -1,0 +1,5 @@
+{
+    "search-app": {
+       "api-url": "http://localhost:3600"
+    }
+}
